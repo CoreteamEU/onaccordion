@@ -29,6 +29,8 @@ url: "https://coreteameu.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username: jekyll
 
+author: ""
+
 # Build settings
 # removed minima
 # theme: minima

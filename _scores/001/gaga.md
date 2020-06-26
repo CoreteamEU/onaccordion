@@ -7,4 +7,4 @@ category: score
 
 ## Gaga
 
-Lady
+Lady Gaga

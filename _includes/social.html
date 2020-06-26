@@ -1,5 +1,5 @@
 <ul class="social-media-list">
-  {%- if site.dribbble_username -%}
+  {% if site.dribbble_username %}
   <li>
     <a
       href="https://dribbble.com/{{ site.dribbble_username| cgi_escape | escape }}"
@@ -11,7 +11,7 @@
       <span class="username">{{ site.dribbble_username| escape }}</span></a
     >
   </li>
-  {%- endif -%} {%- if site.facebook_username -%}
+  {% endif %} {% if site.facebook_username %}
   <li>
     <a
       href="https://www.facebook.com/{{ site.facebook_username| cgi_escape | escape }}"
@@ -23,7 +23,7 @@
       <span class="username">{{ site.facebook_username| escape }}</span></a
     >
   </li>
-  {%- endif -%} {%- if site.flickr_username -%}
+  {% endif %} {% if site.flickr_username %}
   <li>
     <a
       href="https://www.flickr.com/photos/{{ site.flickr_username| cgi_escape | escape }}"
@@ -35,7 +35,7 @@
       <span class="username">{{ site.flickr_username| escape }}</span></a
     >
   </li>
-  {%- endif -%} {%- if site.github_username -%}
+  {% endif %} {% if site.github_username %}
   <li>
     <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}"
       ><svg class="svg-icon">
@@ -46,7 +46,7 @@
       <span class="username">{{ site.github_username| escape }}</span></a
     >
   </li>
-  {%- endif -%} {%- if site.instagram_username -%}
+  {% endif %} {% if site.instagram_username %}
   <li>
     <a
       href="https://instagram.com/{{ site.instagram_username| cgi_escape | escape }}"
@@ -58,7 +58,7 @@
       <span class="username">{{ site.instagram_username| escape }}</span></a
     >
   </li>
-  {%- endif -%} {%- if site.linkedin_username -%}
+  {% endif %} {% if site.linkedin_username %}
   <li>
     <a
       href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}"
@@ -70,7 +70,7 @@
       <span class="username">{{ site.linkedin_display| escape }}</span></a
     >
   </li>
-  {%- endif -%} {%- if site.pinterest_username -%}
+  {% endif %} {% if site.pinterest_username %}
   <li>
     <a
       href="https://www.pinterest.com/{{ site.pinterest_username| cgi_escape | escape }}"
@@ -82,8 +82,8 @@
       <span class="username">{{ site.pinterest_username| escape }}</span></a
     >
   </li>
-  {%- endif -%} {%- for mst in site.mastodon -%}{%- if mst.username and
-  mst.instance -%}
+  {% endif %} {% for mst in site.mastodon %}{% if mst.username and mst.instance
+  %}
   <li>
     <a href="https://{{ mst.instance| cgi_escape | escape}}/@{{mst.username}}"
       ><svg class="svg-icon">
@@ -94,7 +94,7 @@
       <span class="username">{{ mst.username|escape }}</span></a
     >
   </li>
-  {%- endif -%}{%- endfor -%} {%- if site.twitter_username -%}
+  {% endif %}{% endfor %} {% if site.twitter_username %}
   <li>
     <a
       href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}"
@@ -106,7 +106,7 @@
       <span class="username">{{ site.twitter_username| escape }}</span></a
     >
   </li>
-  {%- endif -%} {%- if site.youtube_username -%}
+  {% endif %} {% if site.youtube_username %}
   <li>
     <a
       href="https://youtube.com/{{ site.youtube_username| cgi_escape | escape }}"
@@ -118,7 +118,7 @@
       <span class="username">{{ site.youtube_username| escape }}</span></a
     >
   </li>
-  {%- endif -%} {%- if site.googleplus_username -%}
+  {% endif %} {% if site.googleplus_username %}
   <li>
     <a href="https://plus.google.com/{{ site.googleplus_username| escape }}"
       ><svg class="svg-icon">
@@ -129,7 +129,7 @@
       <span class="username">{{ site.googleplus_username| escape }}</span></a
     >
   </li>
-  {%- endif -%} {%- if site.rss -%}
+  {% endif %} {% if site.rss %}
   <li>
     <a href="{{ 'feed.xml' | relative_url }}"
       ><svg class="svg-icon">
@@ -140,5 +140,5 @@
       <span>{{ site.rss | escape }}</span></a
     >
   </li>
-  {%- endif -%}
+  {% endif %}
 </ul>

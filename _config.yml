@@ -30,7 +30,7 @@ url: "https://coreteameu.github.io" # the base hostname & protocol for your site
 author: ""
 linkedin_display: "LinkedIn"
 linkedin_username: evita-dūra-andersone-76877b69
-title-logo: /images/logo.png
+title-logo: /images/logo
 
 # Build settings
 # removed minima

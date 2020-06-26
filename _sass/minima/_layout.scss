@@ -247,3 +247,12 @@
     }
   }
 }
+
+ul.paginator_links {
+  white-space: nowrap;
+  li {
+    list-style-type: none;
+    display: inline;
+    padding: 1em;
+  }
+}

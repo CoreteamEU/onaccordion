@@ -2,9 +2,9 @@
 layout: post
 title: "Blinding lights!"
 date: 2020-06-26 01:09:01 +0300
-categories: score
+category: score
 ---
 
-## A nice one
+## Blinding
 
-This took me 1 day
+Weeknd

@@ -5,4 +5,4 @@ date: 2020-06-26 01:10:01 +0300
 category: score
 ---
 
-Lady Gaga and Ariana Grande duo song "Rain on me" [scores](<Lady-Gaga-Rain-on-me(onaccordion.com).pdf>)
+Lady Gaga and Ariana Grande duo song "Rain on me" [score](<Lady-Gaga-Rain-on-me(onaccordion.com).pdf>)

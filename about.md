@@ -5,11 +5,11 @@ permalink: /about/
 ---
 
 Hi, my name is Evita.
-I am professional accordionist, composer and music sheet arranger.
+I am a professional accordionist, composer and sheet music arranger.
 
 I have performed in [Latvia](https://en.wikipedia.org/wiki/Latvia) and abroad both as a soloist and in various chamber ensembles.
 
-I teach private accordion lessons and arrange music of different styles for accordion.
+I teach private accordion lessons and arrange different styles of music for accordion and piano.
 
 ![Evita]({{ "images/evita_bw.jpg" | relative_url }} "Evita")
 

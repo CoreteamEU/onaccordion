@@ -109,13 +109,13 @@
   {% endif %} {% if site.youtube_username %}
   <li>
     <a
-      href="https://youtube.com/{{ site.youtube_username| cgi_escape | escape }}"
+      href="https://youtube.com/channel/{{ site.youtube_username| cgi_escape | escape }}"
       ><svg class="svg-icon">
         <use
           xlink:href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}"
         ></use>
       </svg>
-      <span class="username">{{ site.youtube_username| escape }}</span></a
+      <span class="username">{{ site.youtube_display }}</span></a
     >
   </li>
   {% endif %} {% if site.googleplus_username %}

@@ -5,4 +5,4 @@ date: "2020-06-26"
 category: score
 ---
 
-[scores](Doja-Cat-Say-So.pdf)
+[score](Doja-Cat-Say-So.pdf)

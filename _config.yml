@@ -26,6 +26,8 @@ baseurl: "/onaccordion" # the subpath of your site, e.g. /blog
 url: "https://coreteameu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username: jekyll
+youtube_username: UCCUG-BUcha5uC_YmBdnV0Gw
+youtube_display: Youtube
 
 author: ""
 linkedin_display: "LinkedIn"

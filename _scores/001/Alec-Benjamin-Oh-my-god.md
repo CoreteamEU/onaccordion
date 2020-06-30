@@ -5,4 +5,4 @@ date: "2020-06-26"
 category: score
 ---
 
-[scores](Alec-Benjamin-Oh-my-god.pdf)
+[score](Alec-Benjamin-Oh-my-god.pdf)

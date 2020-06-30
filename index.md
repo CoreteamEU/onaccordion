@@ -10,7 +10,7 @@ The project "On accordion" is not yet launched.
 
 That's why this site is still under construction.
 
-## FREE sheet music !!!
+## !!! FREE sheet music !!!
 
 Please, proceed to downloadable [FREE music sheets section](scores),
 to download free accordion and piano sheet music.

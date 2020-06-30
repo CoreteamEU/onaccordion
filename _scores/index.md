@@ -12,16 +12,18 @@ pagination:
 <h1 class="page-heading">{{ page.title }}</h1>
 {% endif %}
 
-<!-- {{ content }} -->
-
 {% if site.scores.size > 0 %}
 
   <h2 class="post-list-heading">{{ page.list_title | default: "" }}</h2>
   <ul class="post-list">
     {% for post in site.scores %}
+    {% if post.category != "score" %}
+      {% continue %}
+    {% endif %}
+
     <li>
-      <!-- {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-      <span class="post-meta">{{ post.date | date: date_format }}</span> -->
+      <!-- {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %} -->
+      <!-- <span class="post-meta">{{ post.date | date: date_format }}</span> -->
       <h3>
         <a class="post-link" href="{{ post.url | relative_url }}">
           {{ post.title | escape }}
@@ -31,7 +33,8 @@ pagination:
         {{ post.excerpt }}
       {% endif %}
     </li>
-      
+
     {% endfor %}
+
   </ul>
   {% endif %}

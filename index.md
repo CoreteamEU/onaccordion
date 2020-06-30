@@ -5,3 +5,8 @@
 layout: home
 title: Welcome
 ---
+
+This site is under construction.
+
+Please, proceed to downloadable [scores section](scores),
+to download free accordion and piano sheet music.

@@ -11,7 +11,7 @@ I have performed in [Latvia](https://en.wikipedia.org/wiki/Latvia) and abroad bo
 
 I teach private accordion lessons and arrange music of different styles for accordion.
 
-![Evita]({{ "images/evita_bw.jpg" | relative_url }})
+![Evita]({{ "images/evita_bw.jpg" | relative_url }} "Evita")
 
 Check out FREE downloadable [sheet music]({{ "scores" | relative_url }}) arranged by me.
 

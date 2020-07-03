@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Everything related to the most powerful instrument in the world - accordion.
 # baseurl: "/onaccordion" # the subpath of your site, e.g. /blog
 baseurl: ""
-url: "https://coreteameu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://coreteameu.github.io" # the base hostname & protocol for your site, e.g.
 # twitter_username: jekyllrb
 # github_username: jekyll
 youtube_username: UCCUG-BUcha5uC_YmBdnV0Gw

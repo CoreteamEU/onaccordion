@@ -11,7 +11,7 @@ He began his recording career in 2010, anonymously uploading several songs to Yo
 #### Scores
 
 Here is the easiest [version](<Weeknd-Blinding-Lights(easy)-onaccordion.com.pdf>).
-It contains just harmonic content of baseline, no rythm.
+It contains just harmonic content of baseline, no rhythm.
 
 Medium [version](<Weeknd-Blinding-Lights(medium)-onaccordion.com.pdf>) has simplified
 rhythm in baseline.

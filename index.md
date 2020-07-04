@@ -12,5 +12,5 @@ That's why this site is still under construction.
 
 ## !!! FREE sheet music !!!
 
-Please, proceed to downloadable [FREE music sheets section](scores),
+Meanwhile, please, proceed to downloadable [FREE music sheets section](scores),
 to download free accordion and piano sheet music.

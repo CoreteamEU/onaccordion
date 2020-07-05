@@ -20,9 +20,9 @@ Check out my content on these platforms:
 
 {% if site.tiktok %}
 
-- [Tiktok](https://www.tiktok.com/@{{ site.tiktok}}) is the fastest growing network of short videos.
-  {% endif %}
 - My [youtube](https://youtube.com/channel/{{ site.youtube_username | cgi_escape | escape }}) channel.
+- [Instagram](https://instagram.com/{{ site.instagram_username| cgi_escape | escape }}).
+- [Tiktok](https://www.tiktok.com/@{{ site.tiktok}}) is the fastest growing network of short videos.{% endif %}
 
 ## Donation
 

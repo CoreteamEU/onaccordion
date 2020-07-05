@@ -21,7 +21,7 @@
 title: onAccordion.com
 email: onAccordion@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Everything related to the most powerful instrument in the world - accordion.
+  Everything accordion.
 # baseurl: "/onaccordion" # the subpath of your site, e.g. /blog
 baseurl: ""
 url: "https://coreteameu.github.io" # the base hostname & protocol for your site, e.g.
@@ -35,6 +35,8 @@ linkedin_display: "LinkedIn"
 # linkedin_username: evita-dūra-andersone-76877b69
 title-logo: /images/logo
 tiktok: onaccordion
+instagram_username: onaccordion
+google_analytics: 1
 
 # Build settings
 # removed minima

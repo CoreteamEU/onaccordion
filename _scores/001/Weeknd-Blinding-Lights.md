@@ -5,7 +5,7 @@ date: 2020-06-26 01:09:01 +0300
 category: score
 ---
 
-[Weekend](https://en.wikipedia.org/wiki/The_Weeknd) is a Canadian singer, songwriter, and record producer.
+[Weekend](https://en.wikipedia.org/wiki/The_Weeknd) is a Canadian singer, songwriter, and record producer.  
 He began his recording career in 2010, anonymously uploading several songs to YouTube.
 
 #### Scores

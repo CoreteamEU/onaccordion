@@ -1,8 +1,14 @@
 ---
 layout: post
-title: "Lady Gaga, Ariana Grande - Rain on me"
-date: 2020-06-26 01:10:01 +0300
 category: score
----
+date: 2020-06-26
 
-Lady Gaga and Ariana Grande duo song "Rain on me" [score](<Lady-Gaga-Rain-on-me(onaccordion.com).pdf>)
+title: Rain On Me
+artist: Lady Gaga, Ariana Grande
+instrument: Accordion/Piano
+key: C# Minor
+difficulty: Medium
+pages_count: 1
+pdf_url: Lady Gaga - Rain On Me (onaccordion.com).pdf
+youtube:
+---

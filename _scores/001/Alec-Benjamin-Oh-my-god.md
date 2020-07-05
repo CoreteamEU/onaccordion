@@ -1,8 +1,14 @@
 ---
 layout: post
-title: "Alec Benjamin - Oh my God"
-date: "2020-06-26"
 category: score
----
+date: 2020-06-27
 
-[score](Alec-Benjamin-Oh-my-god.pdf)
+title: Oh my God
+artist: Alec Benjamin
+instrument: Accordion/Piano
+key: Eb Major
+difficulty: Medium
+pages_count: 2
+pdf_url: Alec Benjamin - Oh My God (onaccordion.com).pdf
+youtube:
+---

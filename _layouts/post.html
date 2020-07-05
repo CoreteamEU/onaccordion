@@ -27,12 +27,59 @@ layout: default
         ></span
       >
       {% endif %}
+
+      <!-- artist -->
+      {% if page.artist %} <div><span class="artist"> {{ page.artist }}</span> </div>
+      {% endif %}
     </p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
+
+  <table>
+  <!-- pdf url -->
+  {% if page.pdf_url %} 
+    <tr>
+    <td class="firstCell">Download:</td>
+    <td class="pdf_url"> <a href="{{ page.pdf_url }}">FREE music sheet (PDF)</a></td>
+  {% endif %}          
+
+  <!-- key -->
+  {% if page.key %}
+    <tr>
+    <td class="firstCell">Key:</td>
+    <td>{{ page.key }}</td>
+  {% endif %}          
+
+  <!-- difficulty -->
+  {% if page.difficulty %} 
+  <tr>
+    <td class="firstCell">Difficulty:</td>
+    <td>{{ page.difficulty }}</td>    
+  {% endif %}      
+
+
+  <!-- pages count -->
+  {% if page.pages_count %} 
+  <tr>
+    <td class="firstCell">Pages:</td>
+    <td>{{ page.pages_count }}</td>  
+  {% endif %}      
+
+
+  <!-- instrument -->
+  {% if page.instrument %} 
+  <tr>
+    <td class="firstCell">Instrument:</td>
+    <td>{{ page.instrument }}</td>  
+  {% endif %}      
+
+  
+</table>
+  
+  
 
   {% if site.disqus.shortname %} {% include disqus_comments.html %} {% endif %}
 

@@ -1,5 +1,5 @@
 ---
-title: "Free sheet music for download"
+title: "Free sheet music"
 layout: default
 date: 2020-06-26 01:10:01 +0300
 pagination:
@@ -9,7 +9,7 @@ pagination:
 
 {% if page.title %}
 
-<h1 class="page-heading">{{ page.title }}</h1>
+  <h1 class="page-heading">{{ page.title }}</h1>
 {% endif %}
 
 {% if site.scores.size > 0 %}
@@ -26,7 +26,7 @@ pagination:
       <!-- <span class="post-meta">{{ post.date | date: date_format }}</span> -->
       <h3>
         <a class="post-link" href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}
+          {{ post.title | escape }} - {{ post.artist | escape }}
         </a>
       </h3>
       {% if site.show_excerpts %}

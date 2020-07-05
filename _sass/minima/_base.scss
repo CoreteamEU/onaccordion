@@ -242,7 +242,7 @@ table {
   border-radius: 6px;
   tr {
     &:nth-child(even) {
-      background-color: lighten($grey-color-light, 6%);
+      background-color: rgba(darken($grey-color-light, 10%), 0.3);
     }
   }
   th,

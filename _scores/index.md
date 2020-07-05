@@ -28,7 +28,6 @@ pagination:
 |
             <a href="{{ post.folder }}/{{ post.pdf_url | escape }}">
               <span class="icon icon-download"></span>
-              (PDF)
             </a>
           </h4>
           {% if site.show_excerpts %}

@@ -10,13 +10,10 @@ He began his recording career in 2010, anonymously uploading several songs to Yo
 
 #### Scores
 
-Here is the easiest [version](<Weeknd-Blinding-Lights(easy)-onaccordion.com.pdf>).
+The easiest [version](<Weeknd-Blinding-Lights(easy)-onaccordion.com.pdf>) to play.
 It contains just harmonic content of baseline, no rhythm.
 
-Medium [version](<Weeknd-Blinding-Lights(medium)-onaccordion.com.pdf>) has simplified
-rhythm in baseline.
-
-Hardest [version](<Weeknd-Blinding-Lights(hard)-onaccordion.com.pdf>) has original
-rythm texture.
+More complicated [version](<Weeknd-Blinding-Lights(medium)-onaccordion.com.pdf>) has simplified rhythm in baseline.
+The hardest [version](<Weeknd-Blinding-Lights(hard)-onaccordion.com.pdf>) has original rhythm texture.
 
 Enjoy!

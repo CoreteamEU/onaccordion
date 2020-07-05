@@ -261,3 +261,20 @@ table {
     }
   }
 }
+
+.icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: $brand-color;
+  mask-size: cover;
+}
+
+.icon:hover,
+.icon:focus {
+  background: $text-color;
+}
+
+.icon-download {
+  -webkit-mask: url(/images/download.svg);
+}

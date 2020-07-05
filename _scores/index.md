@@ -21,15 +21,16 @@ pagination:
         <li>
           <!-- {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %} -->
           <!-- <span class="post-meta">{{ post.date | date: date_format }}</span> -->
-          <h2>
+          <h4>
             <a  href="{{ post.url | relative_url }}">
-              {{ post.title }} - {{ post.artist }}
+              {{ post.artist }} - {{ post.title }}
             </a>
-            || 
+|
             <a href="{{ post.folder }}/{{ post.pdf_url | escape }}">
-              Download (PDF)
+              <span class="icon icon-download"></span>
+              (PDF)
             </a>
-          </h2>
+          </h4>
           {% if site.show_excerpts %}
             {{ post.excerpt }}
           {% endif %}

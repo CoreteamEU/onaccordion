@@ -1,8 +1,9 @@
 ---
 layout: post
-category: score
+tags: score
 date: 2020-06-28
 
+folder: 2020-07
 title: Say So
 artist: Doja Cat
 instrument: Accordion/Piano

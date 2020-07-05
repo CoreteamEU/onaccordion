@@ -1,8 +1,9 @@
 ---
 layout: post
-category: score
+tags: score
 date: 2020-06-26
 
+folder: 2020-07
 title: Rain On Me
 artist: Lady Gaga, Ariana Grande
 instrument: Accordion/Piano

@@ -6,11 +6,9 @@ layout: home
 title: Welcome
 ---
 
-The project "On accordion" is not yet launched.
+onAccordion.com is not yet launched.
+The site is still under construction.
 
-That's why this site is still under construction.
+# !!! FREE sheet music !!!
 
-## !!! FREE sheet music !!!
-
-Meanwhile, please, proceed to downloadable [FREE music sheets section](scores),
-to download free accordion and piano sheet music.
+Meanwhile, please, go to [FREE sheet music section](scores).

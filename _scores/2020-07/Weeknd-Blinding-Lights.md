@@ -1,8 +1,9 @@
 ---
 layout: post
-category: score
+tags: score
 date: 2020-06-01
 
+folder: 2020-07
 title: Blinding lights
 artist: The Weeknd
 instrument: Accordion/Piano

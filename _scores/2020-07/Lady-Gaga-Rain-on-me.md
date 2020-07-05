@@ -12,4 +12,5 @@ difficulty: Medium
 pages_count: 1
 pdf_url: Lady Gaga - Rain On Me (onaccordion.com).pdf
 youtube:
+original_url: https://www.youtube.com/watch?v=AoAm4om0wTs
 ---

@@ -11,6 +11,17 @@
       <span class="username">{{ site.dribbble_username| escape }}</span></a
     >
   </li>
+  {% endif %} {% if site.tiktok %}
+  <li>
+    <a href="https://www.tiktok.com/@{{ site.tiktok| cgi_escape | escape }}"
+      ><svg class="svg-icon">
+        <use
+          xlink:href="{{ '/assets/minima-social-icons.svg#facebook' | relative_url }}"
+        ></use>
+      </svg>
+      <span class="username">Tiktok</span></a
+    >
+  </li>
   {% endif %} {% if site.facebook_username %}
   <li>
     <a

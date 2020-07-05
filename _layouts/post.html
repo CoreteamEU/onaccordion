@@ -76,7 +76,13 @@ layout: default
     <td>{{ page.instrument }}</td>  
   {% endif %}      
 
-  
+  <!-- original_url -->
+  {% if page.original_url %} 
+  <tr>
+    <td class="firstCell">Original:</td>
+    <td> <a href="{{ page.original_url }}"> "{{ page.title }}" video</a></td>  
+  {% endif %}      
+
 </table>
   
   

@@ -2,8 +2,5 @@ items:
   - title: Home
     url: /
 
-  - title: FREE sheet music
-    url: scores
-
   - title: About
     url: about

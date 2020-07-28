@@ -11,5 +11,6 @@ key: Eb Major
 difficulty: Medium
 pages_count: 2
 pdf_url: Alec Benjamin - Oh My God (onaccordion.com).pdf
-youtube:
+original_url: https://www.youtube.com/watch?v=F5EbXtaiWww
+youtube: https://youtu.be/dwQoWPsluss
 ---

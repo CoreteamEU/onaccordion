@@ -79,9 +79,17 @@ layout: default
   <!-- original_url -->
   {% if page.original_url %} 
   <tr>
-    <td class="firstCell">Original:</td>
-    <td> <a href="{{ page.original_url }}"> "{{ page.title }}" video</a></td>  
+    <td class="firstCell"> {{ page.artist }}:</td>
+    <td> <a href="{{ page.original_url }}"> "{{ page.title }}" on Youtube</a></td>  
   {% endif %}      
+
+  <!-- youtube -->
+  {% if page.youtube %}
+  <tr>
+    <td class="firstCell">Performed by Evita:</td>
+    <td> <a href="{{ page.youtube }}"> "{{ page.title }}" on Youtube</a></td>  
+  {% endif %}
+
 
 </table>
   

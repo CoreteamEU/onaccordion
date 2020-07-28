@@ -29,6 +29,11 @@ pagination:
             <a href="scores/{{ post.folder }}/{{ post.pdf_url | escape }}">
               <span class="icon icon-download"></span>
             </a>
+|
+            {% if post.youtube %}
+              <a href="{{ post.youtube }}"> On Youtube </a>
+            {% endif %}
+
           </h4>
           {% if site.show_excerpts %}
             {{ post.excerpt }}

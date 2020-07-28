@@ -11,5 +11,6 @@ key: E Major
 difficulty: Medium
 pages_count: 2
 pdf_url: Doja Cat - Say So (onaccordion.com).pdf
-youtube:
+original_url: https://www.youtube.com/watch?v=pok8H_KF1FA
+youtube: https://youtu.be/aFfHpYn9ckg
 ---

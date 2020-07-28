@@ -11,7 +11,9 @@ I teach private accordion lessons and arrange different styles of music for acco
 
 ![Evita]({{ "images/evita_bw.jpg" | relative_url }} "Evita")
 
-Check out FREE downloadable [sheet music]({{ "scores" | relative_url }}) arranged by me.
+<!-- Check out FREE downloadable [sheet music]({{ "scores" | relative_url }}) arranged by me. -->
+
+Check out FREE downloadable [sheet music]({{ site.url }}) arranged by me.
 Suitable for accordion and in most cases valid for piano.
 
 ## Social

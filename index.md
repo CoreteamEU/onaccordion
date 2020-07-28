@@ -15,35 +15,32 @@ pagination:
 {% if site.scores.size > 0 %}
 
   <h2 class="post-list-heading">{{ page.list_title | default: "" }}</h2>
-  <ul class="post-list">
+
+  <table>
     {% for post in site.scores %}
       {% if post.tags contains "score" %}
-        <li>
-          <!-- {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %} -->
-          <!-- <span class="post-meta">{{ post.date | date: date_format }}</span> -->
-          <h4>
+        <tr>
+          <td>
             <a  href="{{ post.url | relative_url }}">
               {{ post.artist }} - {{ post.title }}
             </a>
-|
+          </td>
+          <td>
             <a href="scores/{{ post.folder }}/{{ post.pdf_url | escape }}">
-              <span class="icon icon-download"></span>
+              Download sheet <span class="icon icon-download"></span>
             </a>
-|
+          </td>
+          <td>
             {% if post.youtube %}
-              <a href="{{ post.youtube }}"> On Youtube </a>
+              <a href="{{ post.youtube }}"> Watch on Youtube </a>
             {% endif %}
-
-          </h4>
-          {% if site.show_excerpts %}
-            {{ post.excerpt }}
-          {% endif %}
-        </li>
+          </td>
+        </tr>
       {% endif %}
     {% endfor %}
+  </table>
 
-  </ul>
-  {% endif %}
+{% endif %}
 
   <h1 class="page-heading">About</h1>
   More on this site [here](/about)

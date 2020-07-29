@@ -16,6 +16,10 @@ I teach private accordion lessons and arrange different styles of music for acco
 <!-- Check out FREE downloadable [sheet music]({{ site.url }}) arranged by me.
 Suitable for accordion and in most cases valid for piano. -->
 
+## Book a lesson
+
+Accordion lessons can be booked via email: <a href="mailto:onAccordion@gmail.com"> onAccordion@gmail.com </a> or PM via Instagram.
+
 ## Social
 
 Check out my content on these platforms:

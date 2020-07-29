@@ -14,5 +14,3 @@ pdf_url: Weeknd - Blinding Lights (onaccordion.com).pdf
 original_url: https://www.youtube.com/watch?v=fHI8X4OXluQ
 youtube: https://youtu.be/AdeuYntT10A
 ---
-
-[Weekend](https://en.wikipedia.org/wiki/The_Weeknd) is a Canadian singer, songwriter, and record producer.

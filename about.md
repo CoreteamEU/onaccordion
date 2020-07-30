@@ -24,11 +24,14 @@ Accordion lessons can be booked via email: <a href="mailto:onAccordion@gmail.com
 
 Check out my content on these platforms:
 
-{% if site.tiktok %}
-
 - My [youtube](https://youtube.com/channel/{{ site.youtube_username | cgi_escape | escape }}) channel.
 - [Instagram](https://instagram.com/{{ site.instagram_username| cgi_escape | escape }}).
-- [Tiktok](https://www.tiktok.com/@{{ site.tiktok}}) is the fastest growing network of short videos.{% endif %}
+  {% if site.tiktok %}
+- [Tiktok](https://www.tiktok.com/@{{ site.tiktok}}) is the fastest growing network of short videos.
+  {% endif %}
+  {% if site.facebook_username %}
+- [Facebook page](https://www.facebook.com/{{ site.facebook_username| cgi_escape | escape }}")
+  {% endif %}
 
 ## Donation
 

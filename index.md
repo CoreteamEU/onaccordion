@@ -17,7 +17,7 @@ pagination:
   <h2 class="post-list-heading">{{ page.list_title | default: "" }}</h2>
 
   <table>
-    {% for post in site.scores %}
+    {% for post in site.scores reversed %}
       {% if post.tags contains "score" %}
         <tr>
           <td>

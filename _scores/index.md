@@ -16,7 +16,7 @@ pagination:
 
   <h2 class="post-list-heading">{{ page.list_title | default: "" }}</h2>
   <ul class="post-list">
-    {% for post in site.scores %}
+    {% for post in site.scores reversed %}
       {% if post.tags contains "score" %}
         <li>
           <!-- {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %} -->

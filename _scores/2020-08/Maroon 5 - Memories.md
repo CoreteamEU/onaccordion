@@ -12,5 +12,5 @@ difficulty: Medium
 pages_count: 2
 pdf_url: Maroon 5 - Memories (onaccordion.com).pdf
 original_url: https://www.youtube.com/watch?v=SlPhMPnQ58k
-youtube:
+youtube: https://youtu.be/l0WePEeMVEQ
 ---

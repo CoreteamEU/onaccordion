@@ -12,5 +12,5 @@ difficulty: Medium
 pages_count: 2
 pdf_url: Jason Derulo - Savage Love (onaccordion.com).pdf
 original_url: https://www.youtube.com/watch?v=gUci-tsiU4I
-youtube: 
+youtube: https://youtu.be/gATy_mG6ciU
 ---

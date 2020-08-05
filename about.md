@@ -30,7 +30,7 @@ Check out my content on these platforms:
 - [Tiktok](https://www.tiktok.com/@{{ site.tiktok}}) is the fastest growing network of short videos.
   {% endif %}
   {% if site.facebook_username %}
-- [Facebook page](https://www.facebook.com/{{ site.facebook_username| cgi_escape | escape }}")
+- [Facebook page](https://www.facebook.com/{{ site.facebook_username| cgi_escape | escape }})
   {% endif %}
 
 ## Donation

@@ -9,6 +9,17 @@
             </a>
         </li>
     {% endif %}
+    {% if site.patreon_username %}
+        <li>
+            <a href="https://www.patreon.com/{{ site.patreon_username| cgi_escape | escape }}">
+                <svg class="svg-icon">
+                    <use xlink:href="{{ '/assets/minima-social-icons.svg#patreon' | relative_url }}"></use>
+                </svg>
+                <span class="username">Patreon</span>
+            </a>
+        </li>
+    {% endif %}
+
     {% if site.tiktok %}
         <li>
             <a href="https://www.tiktok.com/@{{ site.tiktok| cgi_escape | escape }}">

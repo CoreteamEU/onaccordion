@@ -25,9 +25,15 @@ Accordion lessons can be booked via email: <a href="mailto:onAccordion@gmail.com
 Check out my content on these platforms:
 
 - My [youtube](https://youtube.com/channel/{{ site.youtube_username | cgi_escape | escape }}) channel.
-- [Instagram](https://instagram.com/{{ site.instagram_username| cgi_escape | escape }}).
+
+  {% if site.patreon_username %}
+
+- Become a [Patreon](https://www.patreon.com/{{ site.patreon_username | cgi_escape | escape }}) to support my efforts :)
+  {% endif %}
+
+- [Instagram](https://instagram.com/{{ site.instagram_username| cgi_escape | escape }})
   {% if site.tiktok %}
-- [Tiktok](https://www.tiktok.com/@{{ site.tiktok}}) is the fastest growing network of short videos.
+- [Tiktok](https://www.tiktok.com/@{{ site.tiktok}}) shorter videos and sometimes more fun videos
   {% endif %}
   {% if site.facebook_username %}
 - [Facebook page](https://www.facebook.com/{{ site.facebook_username| cgi_escape | escape }})

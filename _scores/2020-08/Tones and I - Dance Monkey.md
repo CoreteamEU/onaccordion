@@ -11,6 +11,6 @@ key: F# minor
 difficulty: Medium
 pages_count: 2
 pdf_url: Tones and I - Dance Monkey (onaccordion.com).pdf
-original_url:
-youtube:
+original_url: https://www.youtube.com/watch?v=q0hyYWKXF0Q
+youtube: https://youtu.be/yWUZrUpvyKc
 ---
